@@ -20,7 +20,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
        
          
               .setStartTimestamp(Date.now())
-                  client.user.setStatus("idle");
+                  //client.user.setStatus("idle");
               
                   //client.user.setStatus("idle");
                   client.user.setPresence(presence.toDiscord()).catch(console.error);
