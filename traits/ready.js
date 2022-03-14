@@ -21,7 +21,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
          
               .setStartTimestamp(Date.now())
               
-       
+                  client.user.setStatus("invisible");
                   client.user.setPresence(presence.toDiscord()).catch(console.error);
     
 })
