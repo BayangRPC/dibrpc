@@ -14,7 +14,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
               .setApplicationId(config.applicationid)
             
               
-             .setState(config.state)
+             //.setState(config.state)
              //.setDetails(config.details)
               .setAssetsLargeImage(large.id)
        
